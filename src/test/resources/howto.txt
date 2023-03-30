@@ -1,0 +1,7 @@
+curl http://localhost:8080 -d 
+cd /D D:\develop\pleiades\workspace\ExtIFStub
+
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test1.json
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test2.json
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test3.json
+

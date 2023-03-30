@@ -1,0 +1,9 @@
+{
+	"status":"失敗",
+	"statusCode":400,
+	"statusMessage":"認証失敗",
+	"authId":"00011",
+	"userOId":"00012",
+	"userId":"00013",
+	"edgeId":"00014"
+}
