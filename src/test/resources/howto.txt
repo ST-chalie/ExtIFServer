@@ -1,7 +1,17 @@
-curl http://localhost:8080 -d 
-cd /D D:\develop\pleiades\workspace\ExtIFStub
 
-curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test1.json
-curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test2.json
-curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @D:\develop\pleiades\workspace\ExtIFStub/src/test/resources/test3.json
+1.batchでjarを起動
+C:\Users\satoshi\IdeaProjects\ExtIFServer\startServer.bat
+
+2.Jetty（Servlet）起動が完了したら、以下のcurlをたたく
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @C:/Users/satoshi/IdeaProjects/ExtIFServer/src/test/resources/test1.json
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @C:/Users/satoshi/IdeaProjects/ExtIFServer/src/test/resources/test2.json
+curl -X POST -H "Content-Type: application/json" http://localhost:8080 -d @C:/Users/satoshi/IdeaProjects/ExtIFServer/src/test/resources/test3.json
+
+3.
+responseがjsonで帰ってきたら成功
+ーーーーーーーーーーーーーーーーーーーーーーー
+
+curl http://localhost:8080 -d
+--cd /D D:\develop\pleiades\workspace\ExtIFStub
+cd C:/Users/satoshi/IdeaProjects/ExtIFServer
 

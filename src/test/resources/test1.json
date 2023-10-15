@@ -1,9 +1,9 @@
 {
-	"status": "成功",
-	"statusCode": 200,
-	"statusMessage": "認証成功",
-	"authId": "00001",
-	"userOId": "00002",
-	"userId": "00003",
-	"edgeId": "00004"
+  "status": "成功",
+  "statusCode": 200,
+  "statusMessage": "認証成功",
+  "authId": "00001",
+  "userOId": "00002",
+  "userId": "00003",
+  "edgeId": "00004"
 }

@@ -1,9 +1,9 @@
 {
-	"status":"失敗",
-	"statusCode":500,
-	"statusMessage":"内部エラー",
-	"authId":"00111",
-	"userOId":"00112",
-	"userId":"00113",
-	"edgeId":"00114"
+  "status": "失敗",
+  "statusCode": 500,
+  "statusMessage": "内部エラー",
+  "authId": "00111",
+  "userOId": "00112",
+  "userId": "00113",
+  "edgeId": "00114"
 }

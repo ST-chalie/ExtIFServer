@@ -1,12 +1,12 @@
 [
-	{
-		"statusCode": 200,
-		"returnCode": 200,
-		"messageName": "200.json"
-	},
-	{
-		"statusCode": 400,
-		"returnCode": 400,
-		"messageName": "400.json"
-	}
+  {
+    "statusCode": 200,
+    "returnCode": 200,
+    "messageName": "200.json"
+  },
+  {
+    "statusCode": 400,
+    "returnCode": 400,
+    "messageName": "400.json"
+  }
 ]
