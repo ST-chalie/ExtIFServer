@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project>
-<Configuration status="OFF">
+<project status="OFF">
     <Properties>
         <Property name="ptn">%d{yyyy/MM/dd HH:mm:ss.SSS} [%X{tid}] [%X{pid}] %-5p %c{3} - %m%n</Property>
         <Property name="logfile">./logs/ExtIFStub_${date:yyyyMMdd}.log</Property>
@@ -27,4 +27,4 @@
             <AppenderRef ref="file"/>
         </Root>
     </Loggers>
-</Configuration>
+</project>

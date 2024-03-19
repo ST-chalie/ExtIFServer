@@ -8,5 +8,10 @@
     "statusCode": 400,
     "returnCode": 400,
     "messageName": "400.json"
+  },
+  {
+    "statusCode": 500,
+    "returnCode": 500,
+    "messageName": "500.json"
   }
 ]

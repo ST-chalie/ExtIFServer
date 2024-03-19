@@ -1,3 +1,3 @@
-cd C:\Users\satoshi\IdeaProjects\ExtIFServer
-java -jar target\ExitIFStub-0.0.1.jar
+cd G:\intelij\ExtIFServer
+java -jar ExtIFStub.jar
 pause
