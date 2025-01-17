@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE project>
+<!--　このファイるがsrc/main/resourcesディレクトリに配置されていることを確認 -->
 <project status="OFF">
     <Properties>
         <Property name="ptn">%d{yyyy/MM/dd HH:mm:ss.SSS} [%X{tid}] [%X{pid}] %-5p %c{3} - %m%n</Property>

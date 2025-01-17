@@ -4,9 +4,9 @@ public class CheckParameter {
     public int checkParameter(RequestDto requestDto) {
         Boolean result = true;
 
-        if (requestDto.statusCode == 0 && requestDto.status == null) {
+        if (requestDto.getStatusCode() == 0 && requestDto.getStatus() == null) {
             result = false;
         }
-        return result == true ? requestDto.statusCode : 0;
+        return result ? requestDto.getStatusCode() : 0;
     }
 }
